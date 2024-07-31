@@ -59,7 +59,7 @@ class BookingController {
       first_name: users.name,
       last_name: users.name,
       tx_ref: tx_ref, // Unique transaction reference
-      callback_url: `https://babiGuide.onrender.com/book/chapa/${tx_ref}`,
+      callback_url: `https://travelguideback.onrender.com/book/chapa/${tx_ref}`,
       // callback_url: "http://your-callback-url.com",
       // callback_url: "http://your-callback-url.com",
       return_url: "https://eyoeldemis.netlify.app",
